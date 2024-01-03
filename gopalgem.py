@@ -30,5 +30,5 @@ def main():
 
         st.markdown(response.result, unsafe_allow_html=False, help=None)
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
